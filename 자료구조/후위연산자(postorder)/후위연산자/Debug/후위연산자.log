@@ -1,0 +1,4 @@
+﻿  소스.cpp
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\후위연산자\후위연산자\소스.cpp(27): warning C4101: 'num' :참조되지 않은 지역 변수입니다.
+  후위연산자.vcxproj -> C:\Users\kimhyeonseok\documents\visual studio 2015\Projects\후위연산자\Debug\후위연산자.exe
+  후위연산자.vcxproj -> C:\Users\kimhyeonseok\documents\visual studio 2015\Projects\후위연산자\Debug\후위연산자.pdb (Full PDB)

@@ -1,0 +1,4 @@
+﻿  소스.cpp
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\자료구조기말_evaltree\자료구조기말_evaltree\소스.cpp(133): warning C4102: 'defalut': 참조되지 않은 레이블입니다.
+  자료구조기말_evaltree.vcxproj -> c:\users\kimhyeonseok\documents\visual studio 2015\Projects\자료구조기말_evaltree\Debug\자료구조기말_evaltree.exe
+  자료구조기말_evaltree.vcxproj -> c:\users\kimhyeonseok\documents\visual studio 2015\Projects\자료구조기말_evaltree\Debug\자료구조기말_evaltree.pdb (Full PDB)

@@ -1,0 +1,5 @@
+﻿  소스.cpp
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\국제표준도서번호\국제표준도서번호\소스.cpp(39): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\국제표준도서번호\국제표준도서번호\소스.cpp(79): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  국제표준도서번호.vcxproj -> C:\Users\kimhyeonseok\Documents\Visual Studio 2015\Projects\국제표준도서번호\Debug\국제표준도서번호.exe
+  국제표준도서번호.vcxproj -> C:\Users\kimhyeonseok\Documents\Visual Studio 2015\Projects\국제표준도서번호\Debug\국제표준도서번호.pdb (Full PDB)

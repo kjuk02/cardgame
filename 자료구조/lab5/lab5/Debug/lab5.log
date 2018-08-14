@@ -1,0 +1,4 @@
+﻿  소스.cpp
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\lab5\lab5\소스.cpp(25): warning C4101: 'num' :참조되지 않은 지역 변수입니다.
+  lab5.vcxproj -> C:\Users\kimhyeonseok\documents\visual studio 2015\Projects\lab5\Debug\lab5.exe
+  lab5.vcxproj -> C:\Users\kimhyeonseok\documents\visual studio 2015\Projects\lab5\Debug\lab5.pdb (Full PDB)

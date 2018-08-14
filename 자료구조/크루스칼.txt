@@ -1,0 +1,111 @@
+#include<iostream>
+#include<fstream>
+#include<vector>
+struct MST {
+	int x;
+	int y;
+	int c;
+};
+void bubble(int LINE, MST mst[]);
+int main()
+{
+	MST mst[100];
+	MST find_mst[100];
+	int check[100] = { 0, };
+	std::ifstream instream;
+	instream.open("input.txt");
+	int Node = 0;
+	int LINE = 0;
+	instream >> Node >> LINE;
+	for (int i = 0; i < LINE; ++i)
+		instream >> mst[i].x >> mst[i].y >> mst[i].c;
+	bubble(LINE, mst);
+	int count = 0;
+	std::vector<int>check_;
+	std::vector<MST>check_mst;
+	for (int i = 0; i < LINE; ++i)
+	{
+		int reset = 0;
+		find_mst[count] = mst[i];
+
+		for (int f = 0; f <= count; ++f)
+			check_mst.push_back(find_mst[f]);
+		if (count+1 == Node)
+		{
+			find_mst[count].x = mst[i].x;
+			find_mst[count].y = mst[i].y;
+			find_mst[count].c = 999;
+			break;
+		}
+		int hw = 0;
+		check_.push_back(check_mst[check_mst.size() - 1].y);
+		check_.push_back(check_mst[check_mst.size() - 1].x);
+		check_mst.pop_back();
+		int near = 0;
+		for (int m = 0; m <= count; ++m)
+		{
+			for (int k = 0; k < check_mst.size(); ++k)
+			{
+				if (check_[check_.size() - 1] == check_mst[k].x)
+				{
+					check_.pop_back();
+					check_.push_back(check_mst[k].y);
+					++hw;
+					check_mst.erase(check_mst.begin() + k);
+					near = 0;
+					break;
+				}
+				else if (check_[check_.size() - 1] == check_mst[k].y)
+				{
+					check_.pop_back();
+					check_.push_back(check_mst[k].x);
+					++hw;
+					check_mst.erase(check_mst.begin() + k);
+					near = 0;
+					break;
+				}
+			}
+			near++;
+			if (near == 2)
+			{
+				if (check_.size()==2&&check_[check_.size() - 1] == check_[check_.size() - 2])
+				{
+					reset = 1;
+					break;
+				}
+				if (check_.size() == 0)
+					break;
+				check_.pop_back();
+			}
+		}
+		if (reset == 0)
+			count++;
+		check_.clear();
+		check_mst.clear();
+	}
+	std::cout << "cost" << "\t" << "edge" << "\t" << "action" << std::endl;
+	int j = 0;
+	for (int i = 0; i < LINE; ++i)
+	{
+		if ((find_mst[j].x == mst[i].x&&find_mst[j].y == mst[i].y&&find_mst[j].c == mst[i].c) && j < count)
+			std::cout << mst[i].c << "\t" << "(" << mst[i].x << "," << mst[i].y << ")" << "\t" << "accepet" << std::endl, j++;
+		else if (find_mst[j].c == 999)
+			std::cout << mst[i].c << "\t" << "stop" << " " << "already (n-1)edges added" << std::endl;
+		else
+			std::cout << mst[i].c << "\t" << "(" << mst[i].x << "," << mst[i].y << ")" << "\t" << "reject => cycle" << std::endl;
+	}
+	instream.close();
+	return 0;
+}
+void bubble(int LINE, MST mst[])
+{
+	for (int i = 0; i < LINE; ++i)
+		for (int j = 0; j < LINE - 1; ++j)
+			if (mst[j].c > mst[j + 1].c)
+			{
+				MST temp;
+				temp = mst[j];
+				mst[j] = mst[j + 1];
+				mst[j + 1] = temp;
+			}
+}

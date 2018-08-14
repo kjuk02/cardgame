@@ -1,0 +1,5 @@
+﻿  소스.cpp
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\다각형의 면적\다각형의 면적\소스.cpp(24): warning C4101: 'testcaseX' :참조되지 않은 지역 변수입니다.
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\다각형의 면적\다각형의 면적\소스.cpp(24): warning C4101: 'testcaseY' :참조되지 않은 지역 변수입니다.
+  다각형의 면적.vcxproj -> C:\Users\kimhyeonseok\documents\visual studio 2015\Projects\다각형의 면적\Debug\다각형의 면적.exe
+  다각형의 면적.vcxproj -> C:\Users\kimhyeonseok\documents\visual studio 2015\Projects\다각형의 면적\Debug\다각형의 면적.pdb (Full PDB)

@@ -1,0 +1,4 @@
+﻿  소스.cpp
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\dll2\dll2\소스.cpp(190): warning C4101: 'num2' :참조되지 않은 지역 변수입니다.
+  DLL2.vcxproj -> C:\Users\kimhyeonseok\Documents\Visual Studio 2015\Projects\DLL2\Debug\DLL2.exe
+  DLL2.vcxproj -> C:\Users\kimhyeonseok\Documents\Visual Studio 2015\Projects\DLL2\Debug\DLL2.pdb (Full PDB)

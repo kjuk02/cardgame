@@ -1,0 +1,4 @@
+﻿  소스.cpp
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\빙고게임\빙고게임\소스.cpp(47): warning C4101: 'cnt' :참조되지 않은 지역 변수입니다.
+  빙고게임.vcxproj -> C:\Users\kimhyeonseok\documents\visual studio 2015\Projects\빙고게임\Debug\빙고게임.exe
+  빙고게임.vcxproj -> C:\Users\kimhyeonseok\documents\visual studio 2015\Projects\빙고게임\Debug\빙고게임.pdb (Full PDB)

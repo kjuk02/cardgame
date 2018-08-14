@@ -1,0 +1,4 @@
+﻿  소스.cpp
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\crosspuzzle\crosspuzzle\소스.cpp(101): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  crosspuzzle.vcxproj -> C:\Users\kimhyeonseok\documents\visual studio 2015\Projects\crosspuzzle\Debug\crosspuzzle.exe
+  crosspuzzle.vcxproj -> C:\Users\kimhyeonseok\documents\visual studio 2015\Projects\crosspuzzle\Debug\crosspuzzle.pdb (Full PDB)

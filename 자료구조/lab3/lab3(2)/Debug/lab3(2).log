@@ -1,0 +1,4 @@
+﻿  소스.cpp
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\lab3(2)\lab3(2)\소스.cpp(66): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  lab3(2).vcxproj -> C:\Users\kimhyeonseok\Documents\Visual Studio 2015\Projects\lab3(2)\Debug\lab3(2).exe
+  lab3(2).vcxproj -> C:\Users\kimhyeonseok\Documents\Visual Studio 2015\Projects\lab3(2)\Debug\lab3(2).pdb (Full PDB)

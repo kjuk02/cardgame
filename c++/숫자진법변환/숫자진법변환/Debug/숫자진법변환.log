@@ -1,0 +1,6 @@
+﻿  소스.cpp
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\숫자진법변환\숫자진법변환\소스.cpp(40): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\숫자진법변환\숫자진법변환\소스.cpp(43): warning C4244: '+=': 'double'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\숫자진법변환\숫자진법변환\소스.cpp(45): warning C4244: '+=': 'double'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  숫자진법변환.vcxproj -> C:\Users\kimhyeonseok\Documents\Visual Studio 2015\Projects\숫자진법변환\Debug\숫자진법변환.exe
+  숫자진법변환.vcxproj -> C:\Users\kimhyeonseok\Documents\Visual Studio 2015\Projects\숫자진법변환\Debug\숫자진법변환.pdb (Full PDB)

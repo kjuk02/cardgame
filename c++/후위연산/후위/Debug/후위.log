@@ -1,0 +1,5 @@
+﻿  소스.cpp
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\후위\후위\소스.cpp(18): warning C4551: 함수 호출에 인수 목록이 없습니다.
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\후위\후위\소스.cpp(22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  후위.vcxproj -> C:\Users\kimhyeonseok\Documents\Visual Studio 2015\Projects\후위\Debug\후위.exe
+  후위.vcxproj -> C:\Users\kimhyeonseok\Documents\Visual Studio 2015\Projects\후위\Debug\후위.pdb (Full PDB)

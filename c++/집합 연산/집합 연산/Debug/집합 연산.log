@@ -1,0 +1,4 @@
+﻿  소스.cpp
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\집합 연산\집합 연산\소스.cpp(25): warning C4101: 'numcase' :참조되지 않은 지역 변수입니다.
+  집합 연산.vcxproj -> C:\Users\kimhyeonseok\documents\visual studio 2015\Projects\집합 연산\Debug\집합 연산.exe
+  집합 연산.vcxproj -> C:\Users\kimhyeonseok\documents\visual studio 2015\Projects\집합 연산\Debug\집합 연산.pdb (Full PDB)

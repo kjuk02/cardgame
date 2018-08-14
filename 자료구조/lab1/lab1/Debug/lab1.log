@@ -1,0 +1,4 @@
+﻿  소스.cpp
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\lab1\lab1\소스.cpp(17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  lab1.vcxproj -> C:\Users\kimhyeonseok\Documents\Visual Studio 2015\Projects\lab1\Debug\lab1.exe
+  lab1.vcxproj -> C:\Users\kimhyeonseok\Documents\Visual Studio 2015\Projects\lab1\Debug\lab1.pdb (Full PDB)

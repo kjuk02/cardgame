@@ -1,0 +1,124 @@
+#include <iostream>
+class maze
+{
+private:
+	int top;
+	int row[100];
+	int col[100];
+	int dir[100];
+	int vert[100];
+	int horiz[100];
+public:
+	void create_stack();
+	void push(int row2,int col2, int dir2);
+	int pop_r();
+	int pop_c();
+	int pop_d();
+	bool isFull();
+	bool isEmpty();
+	void insert();
+	int vertreturn(int num);
+	int horizreturn(int num);
+	void print();
+};
+using namespace std;
+void maze::print(){for (int i = 0; i <= top; i++)cout << row[i] << "\t" <<col[i] << endl;}
+void maze::insert()
+{
+	vert[0] = -1; horiz[0] = 0;   // N     
+	vert[1] = -1; horiz[1] = 1;   // NE   
+	vert[2] = 0; horiz[2] = 1;    // E     
+	vert[3] = 1; horiz[3] = 1;    // SE    
+	vert[4] = 1; horiz[4] = 0;    // S     
+	vert[5] = 1; horiz[5] = -1;   // SW   
+	vert[6] = 0; horiz[6] = -1;   // W    
+	vert[7] = -1;horiz[7] = -1;  // NW 
+}
+int  maze::vertreturn(int num) { return vert[num]; }
+int  maze::horizreturn(int num) { return horiz[num]; }
+int  maze::pop_r() { return row[top];}//스택출력
+int  maze::pop_c() { return col[top];}
+int  maze::pop_d(){return dir[top--]; }
+
+void maze::create_stack() {	top = -1;} //스택생성
+void maze::push(int row2, int col2, int dir2) //값 입력
+{
+	++top;
+	row[top] = row2;
+	col[top]= col2;
+	dir[top] = dir2;
+}
+bool maze::isFull()
+{
+	if (top == 99)
+		return true;
+	else
+		return false;
+}
+bool maze::isEmpty()
+{
+	if (top == -1)
+		return true;
+	else
+		return false;
+}
+int main()
+{
+	maze runner;
+	runner.insert();
+	runner.create_stack();
+	
+	int maze[6][6] = {
+		0,1,1,1,1,1,  
+		1,0,1,1,1,1,  
+		1,0,0,0,0,1,  
+		1,1,0,1,1,1,  
+		1,0,1,0,0,1,  
+		1,1,1,1,1,0 };
+	int mark[6][6] = { 0,0,0,0,0,0,  0,0,0,0,0,0,  0,0,0,0,0,0,  0,0,0,0,0,0,  0,0,0,0,0,0,  0,0,0,0,0,0 };
+
+	mark[0][0] = 1;
+	runner.push(0, 0, 2);
+	int found = 0;
+	while (!found)
+	{
+		int row = runner.pop_r();
+		int col = runner.pop_c();
+		int dir = runner.pop_d();
+		int next_row = 0;
+		int next_col = 0;
+		while (dir < 8 && !found) {
+			next_row = row + runner.vertreturn(dir);  next_col = col + runner.horizreturn(dir);
+			if (next_row == 5 && next_col == 5)  // reached exit?   
+			{
+				found = 1;
+				mark[next_row][next_col] = 1;
+				runner.push(row, col, dir);
+				runner.push(next_row, next_col, dir);
+			}
+				else if (!maze[next_row][next_col] && !mark[next_row][next_col])
+			{  // new position        
+				mark[next_row][next_col] = 1;
+				runner.push(row, col, dir);
+				row = next_row;
+				col = next_col;
+				dir = 0;
+			}
+			else  dir++;   // position change  
+		}
+		dir = 0;
+	}
+	cout << "row" << "\t" << "col"<<endl;
+	cout << "ㅡㅡㅡㅡㅡㅡ" << endl;
+	runner.print();
+	cout << "\n\n";
+	cout << "Marked Matrix" << endl;
+	cout << "ㅡㅡㅡㅡㅡㅡ" << endl;
+	for (int i = 0; i < 6; i++)
+	{	for (int j = 0; j < 6; j++)
+		cout << mark[i][j]<<" ";
+			
+		cout << endl;
+	}
+	return 0;
+}

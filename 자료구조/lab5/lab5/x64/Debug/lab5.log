@@ -1,0 +1,7 @@
+﻿  소스.cpp
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\lab5\lab5\소스.cpp(45): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\lab5\lab5\소스.cpp(69): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\lab5\lab5\소스.cpp(25): warning C4101: 'num' :참조되지 않은 지역 변수입니다.
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\lab5\lab5\소스.cpp(209): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  lab5.vcxproj -> C:\Users\kimhyeonseok\documents\visual studio 2015\Projects\lab5\x64\Debug\lab5.exe
+  lab5.vcxproj -> C:\Users\kimhyeonseok\documents\visual studio 2015\Projects\lab5\x64\Debug\lab5.pdb (Full PDB)

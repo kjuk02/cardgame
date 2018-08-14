@@ -1,0 +1,5 @@
+﻿  소스.cpp
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\tree2\tree2\소스.cpp(60): warning C4715: 'Tree::find_min': 모든 제어 경로에서 값을 반환하지는 않습니다.
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\tree2\tree2\소스.cpp(69): warning C4715: 'Tree::find_max': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  tree2.vcxproj -> C:\Users\kimhyeonseok\Documents\Visual Studio 2015\Projects\tree2\Debug\tree2.exe
+  tree2.vcxproj -> C:\Users\kimhyeonseok\Documents\Visual Studio 2015\Projects\tree2\Debug\tree2.pdb (Full PDB)

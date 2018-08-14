@@ -1,0 +1,4 @@
+﻿  소스.cpp
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\디지털시계\디지털시계\소스.cpp(20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  디지털시계.vcxproj -> C:\Users\kimhyeonseok\documents\visual studio 2015\Projects\디지털시계\Debug\디지털시계.exe
+  디지털시계.vcxproj -> C:\Users\kimhyeonseok\documents\visual studio 2015\Projects\디지털시계\Debug\디지털시계.pdb (Full PDB)

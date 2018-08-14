@@ -1,0 +1,6 @@
+﻿  소스.cpp
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\시이저암호문복기법\시이저암호문복기법\소스.cpp(59): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\시이저암호문복기법\시이저암호문복기법\소스.cpp(194): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\시이저암호문복기법\시이저암호문복기법\소스.cpp(226): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  시이저암호문복기법.vcxproj -> C:\Users\kimhyeonseok\documents\visual studio 2015\Projects\시이저암호문복기법\Debug\시이저암호문복기법.exe
+  시이저암호문복기법.vcxproj -> C:\Users\kimhyeonseok\documents\visual studio 2015\Projects\시이저암호문복기법\Debug\시이저암호문복기법.pdb (Full PDB)

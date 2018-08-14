@@ -1,0 +1,5 @@
+﻿  소스.cpp
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\해밍 코드\해밍 코드\소스.cpp(116): warning C4244: '=': 'double'에서 '__int64'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kimhyeonseok\documents\visual studio 2015\projects\해밍 코드\해밍 코드\소스.cpp(268): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  해밍 코드.vcxproj -> C:\Users\kimhyeonseok\documents\visual studio 2015\Projects\해밍 코드\Debug\해밍 코드.exe
+  해밍 코드.vcxproj -> C:\Users\kimhyeonseok\documents\visual studio 2015\Projects\해밍 코드\Debug\해밍 코드.pdb (Full PDB)
